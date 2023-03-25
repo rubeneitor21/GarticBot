@@ -1,9 +1,11 @@
 # GarticBot
 A WIP Gartic Phone Bot
 
-## How to use
-Install NodeJS, clone or download the repo, run `npm i`, create a lobby like you would normally do, copy the invite link and paste it in main.js where the gartic phone url is then run `node main.js`
-
-Keep in mind that for the moment it doesnt does much, just joins the game and draw following sin
-
-Suppose to draw from image
+# Install and Usage
+1. Install NodeJS
+2. Download repo zip or clone it
+3. Run `npm i` to install dependencies
+4. Get a lobby url
+5. run `node main.js <url> <image url (optional and WIP)> <nickname (optional)>
+6. When the game starts, you will need to type. DONT move the mouse while its drawing as it will likely mess it up
+7. It will only draw once
