@@ -12,7 +12,7 @@ args.shift();
 
 let images = ['.\\Rubeneitor2.png']
 
-let randomURL = images[Math.floor(Math.random() * 2)];
+let randomURL = images[Math.floor(Math.random() * images.length)];
 
 
 // Esto es para poder usar operaciones asyncronas
