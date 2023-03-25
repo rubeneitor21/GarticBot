@@ -8,7 +8,7 @@ let args = process.argv
 args.shift()
 args.shift();
 
-let images = ['.\\Rubeneitor2.png', 'https://previews.123rf.com/images/muuraa/muuraa1610/muuraa161000051/63873509-negro-silueta-de-la-funci%C3%B3n-y-la-disfunci%C3%B3n-er%C3%A9ctil-del-pene-hombre-%C3%B3rgano-reproductor-tan-plano.jpg']
+let images = ['.\\Rubeneitor2.png']
 
 let randomURL = images[Math.floor(Math.random() * 2)];
 
